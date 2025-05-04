@@ -18,7 +18,7 @@ void print_usage (char *argv[]) {
     printf("\t -a - add a new employee\n");
     printf("\t -l - list all the employee\n");
     printf("\t -r - remove an employee by ID or by name\n");
-    printf("\t -d - detail about an employee (to implement)\n");
+    printf("\t -d - detail about an employee\n");
     printf("\t -u - update an employee\n");
     printf("\t\t -N - update the name of an employee \"Name\"\n");
     printf("\t\t -A - update the address of an employee \"addr\"\n");
@@ -33,6 +33,7 @@ void print_usage (char *argv[]) {
     printf("Usage: %s -f <database file> -u <ID> -I <New ID>\n", argv[0]);
     printf("Usage: %s -f <database file> -u <ID> -H <New hour>\n", argv[0]);
     printf("Usage: %s -f <database file> -r <ID>/<\"Name\">\n", argv[0]);
+    printf("Usage: %s -f <database file> -d <ID>/<\"Name\">\n", argv[0]);
     return;
 }
 
